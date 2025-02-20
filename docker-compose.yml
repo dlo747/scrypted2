@@ -46,8 +46,8 @@ services:
         # runtime: nvidia
 
         # NVIDIA (Part 3 of 4) - Use NVIDIA image, and remove subsequent default image.
-        # image: ghcr.io/koush/scrypted:nvidia
-        image: ghcr.io/koush/scrypted
+        image: ghcr.io/koush/scrypted:nvidia
+        #image: ghcr.io/koush/scrypted
 
         volumes:
             # NVIDIA (Part 4 of 4)
